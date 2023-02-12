@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <HeroScreen /> component should test that component is rendering correctly 1`] = `
+<h1>
+  No Hero Page
+</h1>
+`;

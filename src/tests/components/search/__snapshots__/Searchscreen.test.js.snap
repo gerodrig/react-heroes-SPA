@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <SearchScreen /> component Should render search snapshot correctly with default values 1`] = `
+Array [
+  <h1>
+    Hero Finder
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5 animate__animated animate__fadeIn animate__slow"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search for a hero"
+          required={true}
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-primary btn-block mt-2"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7 animate__animated animate__fadeIn animate__slow"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info animate__animated animate__bounceInDown"
+      >
+        Search for a Hero
+      </div>
+    </div>
+  </div>,
+]
+`;
